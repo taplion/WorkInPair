@@ -3,9 +3,11 @@
 
 int main(){
 
-//int* tab;
-//tab = new int[100];
-//tab=generator;
+    int*=generator();
+   printTab(tab,10);
+   std::cout<<"min: "<<min(tab,10)<<std::endl;
+   std::cout<<"max: "<<max(tab,10)<<std::endl;
+   std::cout<<"suma: "<<sum(tab,10)<<std::endl;
 
 
 return 0;
